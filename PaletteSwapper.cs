@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
@@ -45,16 +45,16 @@ public class PaletteSwapper : EditorWindow
                 GenerateSwapper();
         }
 
-        if (original == null ||
-            reference == null ||
-            (swapper == null && useSwapper))
+        GUILayout.Space(20);
+
+        if (original == null) return;
+        
+        if (reference != null && (swapper != null || !useSwapper))
         {
-            return;
+            if (GUILayout.Button("Generate", GUILayout.Height(50)))
+                GenerateTexture();
         }
 
-        GUILayout.Space(20);
-        if (GUILayout.Button("Generate", GUILayout.Height(50)))
-            GenerateTexture();
         if (GUILayout.Button("Reset", GUILayout.Height(50)))
             SaveTextureAsPNG(original, absolutePath);
     }
