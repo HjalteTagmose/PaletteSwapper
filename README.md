@@ -3,7 +3,8 @@ Swaps certain colors based on reference lookup texture
 
 ## How to install
 This is an Editor script for Unity. 
-You need to place the file in Assets/Editor for it to work.
+The file has to be in Assets/Editor for it to work.
+You can open the tool, by going to Tools/PaletteSwapper.
 
 ## How it works
 Specify a name and location for the new texture to be saved to.
