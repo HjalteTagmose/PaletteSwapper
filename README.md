@@ -18,3 +18,6 @@ If using swapper, your swap texture should be the same size as the reference tex
 
 ## Recommendations
 It's a simple script and should probably only be used with small palettes. 
+
+## Bugs
+None. I'm a god. JK, idfk, but feel free to reach out to me on twitter, if you find any: https://twitter.com/hjaltetagmose.
