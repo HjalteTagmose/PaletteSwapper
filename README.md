@@ -1,6 +1,8 @@
 # PaletteSwapper
 Swaps certain colors based on reference lookup texture
 
+![psx tex-gen car](https://user-images.githubusercontent.com/11188945/137145919-d396d83e-3923-4b86-b37d-dba2cabe62da.gif)
+
 ## How to install
 This is an Editor script for Unity. 
 The file has to be in Assets/Editor for it to work.
